@@ -7,7 +7,7 @@ public class Palindrome {
 	public static void main(String args[])throws IOException
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter a number");
+		System.out.println("Enter a number to be checked");
 		int a=Integer.parseInt(br.readLine());
 		int temp=a;
 		int rem;
@@ -19,6 +19,7 @@ public class Palindrome {
 		rev=(rev*10)+rem;
 		temp=temp/10;
 		}
+		
 		
 		if(a==rev)
 			System.out.println(a+" is Palindrome");
