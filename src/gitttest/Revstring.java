@@ -19,7 +19,7 @@ public class Revstring {
 			rev=ch+rev;
 		}
 		
-		System.out.println("Reverse of the string is "+rev);
+		System.out.println("Reverse of the string "+str+" is "+rev);
 		
 		
 		
