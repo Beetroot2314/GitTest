@@ -21,9 +21,9 @@ public class Palindrome {
 		}
 		
 		if(a==rev)
-			System.out.println("Palindrome");
+			System.out.println(a+" is Palindrome");
 		else
-			System.out.println("Not palindrome");
+			System.out.println(a+" is not Palindrome");
 		
 		
 		
